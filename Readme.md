@@ -91,3 +91,15 @@ Vale ressaltar que não tenho completa noção do funcionamento do The News, som
 
 INSEIR:
 Com o objetivo de complementar a análise exploratória, foi aplicado o algoritmo de agrupamento K-Means. Diferentemente dos modelos supervisionados, o K-Means não busca prever um resultado específico, mas identificar grupos de usuários com características semelhantes. Essa abordagem permite compreender diferentes perfis de jogadores e apoiar estratégias de retenção e personalização.
+
+Para complementar a Análise Exploratória de Dados (AED) e dar robustez estatística às hipóteses levantadas, aplicou-se o algoritmo de aprendizado não supervisionado **K-Means** focado em agrupar os usuários por similaridade de comportamento operacional.
+
+Em vez de trazer novas métricas, **o modelo foi utilizado para confirmar e unificar as descobertas prévias**, provando como os fatores se correlacionam de forma integrada. O algoritmo dividiu a base em 4 perfis claros de jogadores:
+
+*   **Cluster 0 — O Treino Oculto (13,3%):** Registra 100% de derrotas, mas possui 100% de retorno no dia seguinte e os maiores índices de dados ocultos (50,8% de renda omissa). **Confirma matematicamente** a tese de usuários jogando deslogados em guias anônimas para descobrir a palavra secreta.
+*   **Cluster 1 — A Frustração Real (45,5%):** O grupo majoritário da base. Registra 100% de derrotas nas 6 tentativas e 0% de retorno imediato. **Isola o foco do Churn de 69%** da plataforma, gerado pela frustração com palavras complexas.
+*   **Cluster 3 — A Alta Performance (25,3%):** Usuários de elite com 100% de vitórias rápidas (média de 2,32 tentativas) e retenção estável.
+*   **Cluster 2 — O Jogador Real Competitivo (15,7%):** Perfil resiliente com equilíbrio saudável de vitórias (52%) e derrotas (48%), composto majoritariamente por lideranças corporativas seniores (Diretores e Coordenadores) que sustentam a maior retenção mensal da base (37%).
+
+O Veredito do Modelo para o Negócio:
+O cruzamento de dados dos clusters provou que as distribuições de idade, renda e sistema operacional (iOS/Android) são homogêneas entre os grupos. Isso valida que **fatores demográficos ou tecnológicos não ditam o engajamento ou o abandono do jogador**. O sucesso do produto depende estritamente da experiência psicológica do usuário diante da dificuldade do quiz, justificando os planos de ação propostos (Modo Treino, Escudo de Streak e Balanceamento Ortográfico) para blindar a saúde do ecossistema.
