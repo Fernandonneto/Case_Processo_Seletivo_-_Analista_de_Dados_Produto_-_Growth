@@ -226,6 +226,7 @@ O painel foi desenvolvido a partir da base consolidada e permite acompanhar, de 
 
 <img src="imagens/painel_produto_engajamento.png" width="700">
 <img src="imagens/painel_retencao_crescimento.png" width="700">
+
 ---
 
 # 🤖 Bônus – Segmentação de Usuários com Machine Learning (K-Means)
