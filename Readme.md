@@ -79,4 +79,5 @@ Pode ocorrer, probabiidade dos usuarios não cadastrados no sistema, sejam os us
 
 ## Bonus: Dashboard
 
-Monitorar no Dashboard: A) Engajamento vs. Performance...
+INSERIR:
+💡 Dica de Ouro para o seu PortfólioPara que o Power BI não pareça apenas um gráfico isolado, inclua uma seção no seu README chamada "📊 Monitoramento Contínuo (Business Intelligence)".Lá, você pode colocar um print do dashboard e explicar:"Para que o time de operações possa acompanhar o sucesso das hipóteses propostas em tempo real, desenvolveu-se um dashboard no Power BI alimentado pela base unificada. O painel monitora oscilações diárias nas taxas de retenção e distribuições de horários."
