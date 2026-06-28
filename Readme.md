@@ -31,3 +31,52 @@ Isso responde exatamente à pergunta:
 O que determina se um usuário volta a jogar?
 
 É uma análise que vai além da EDA descritiva e começa a investigar fatores associados ao comportamento do usuário."
+
+
+**Pode ser uma hipotese, ação e critério de sucesso: MELHORAR**
+"""
+O gráfico revela que os horários de pico de acesso ao quiz ocorrem no final da noite, especificamente entre 22h e 23h, registrando o maior volume. Logo em seguida, com uma diferença visível, surge o período da manhã entre 6h, 7h e 8h, que mantém um nível de acessos equilibrado e alto. Por outro lado, o quiz registra o menor engajamento de forma disparada durante o período da tarde, estável entre 12h e 17h, onde o volume cai drasticamente.
+
+Recomendação estratégica: Esses padrões indicam claramente quais janelas de horário devem ser priorizadas em ações de marketing e notificações para maximizar o engajamento com os usuários.
+
+Metrica a ser acompanhada para sucesso da hipotese, para manter os usuarios jogando de forma mais constantes: 2 - A) Volume de acesso por hora...
+"""
+
+"""
+A análise do ranking das 10 palavras com maior taxa de derrota revela um padrão claro: as 6 palavras mais desafiadoras para os usuários (PAZÃO, DANÇA, NIXÃO, HERÓI, ORAÇÃO e CIÚME) possuem acentos ou sinais gráficos, registrando uma taxa de derrota próxima a 80%. Essa observação é um insumo valioso de game design, pois comprova que a presença de caracteres especiais eleva drasticamente a dificuldade do jogo. 
+
+Recomendação estratégica: Esse conhecimento pode ser utilizado estrategicamente para calibrar a dificuldade do quiz, alternando entre palavras mais simples ou mais complexas a depender do objetivo de engajamento da plataforma.
+
+Metrica a ser acompanhada para sucesso da hipotese, para manter os usuarios jogando de forma mais constantes: 2 - C) Análise das palavras...
+"""
+
+"""
+A análise da probabilidade de retorno por sequência (Streak) revela que o hábito de jogo se fortalece progressivamente até o 4º dia consecutivo, onde a chance de retorno atinge o pico estável de 30%.
+
+Contudo, a partir do 5º dia, observa-se um aumento expressivo na volatilidade dos dados (alargamento do Intervalo de Confiança), sugerindo que manter o engajamento a longo prazo torna-se imprevisível e desafiador para o usuário.
+
+Recomendação estratégica: Para mitigar a fadiga do hábito e evitar o desabamento da retenção observado após o 7º dia, a plataforma deve implementar gatilhos de incentivo (notificações com bônus, desafios especiais de meio de semana ou recompensas por manter o streak) focados especialmente em usuários que estão cruzando a marca do 4º e do 5º dia de jogo consecutivo.
+
+Metrica a ser acompanhada para sucesso da hipotese, para manter os usuarios jogando de forma mais constantes: 3 - A) Engajamento vs. Performance...
+"""
+
+"""
+A análise de retenção em 30 dias revela que a fidelidade á plataforma é homogênea entre as gerações, estabilizando-se entre 31% para todas as faixas etárias. Esse comportamento uniforme comprova o apelo universal do quiz. O grupo "Não informado" (jogadores anônimos) acompanha exatamente o mesmo patamar de fidelidade, confirmando que os usuários sem cadastro possuem alto valor e são tão fiéis quanto os cadastrados.
+
+Por outro lado, quando avaliamos o comportamento por turno, há variações importantes: os usuários matutinos (Morning) são os mais fiéis, registrando a maior taxa de retenção da base com cerca de 37%, o que sugere que o jogo funciona melhor quando integrado à rotina matinal. Em contrapartida, o período da noite (Night) apresenta o menor índice de retenção, ficando em aproximadamente 29%. Esse dado traz um contraponto crucial: embora a noite registre o maior volume absoluto de acessos, ela é a menos eficiente para fidelizar a longo prazo.
+
+Recomendação estratégica: Como a taxa de inatividade geral atinge 69%, as ações de melhoria devem focar em mecânicas globais de retenção (como sistemas de níveis, conquistas ou um modo competitivo), em vez de campanhas segmentadas por idade. Além disso, para transformar os jogadores casuais da noite em usuários recorrentes, a plataforma pode disparar notificações push logo no início do dia (ex: entre 7h e 8h), incentivando a criação de um hábito matutino saudável na base.
+
+Metrica a ser acompanhada para sucesso da hipotese, para manter os usuarios jogando de forma mais constantes: 3 - B) Perfil de quem some...
+"""
+
+"""
+
+"""
+
+Pode ocorrer, probabiidade dos usuarios não cadastrados no sistema, sejam os usuarios já cadastrados, jogando o jogo de forma anonima, para não perder as chances e acertar quando for jogar de forma definitiva???
+
+
+## Bonus: Dashboard
+
+Monitorar no Dashboard: A) Engajamento vs. Performance...
