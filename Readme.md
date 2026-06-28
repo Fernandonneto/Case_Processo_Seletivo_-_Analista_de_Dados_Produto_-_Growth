@@ -46,6 +46,24 @@ Embora o enunciado informe que o jogador possui **até seis tentativas** para ac
 
 Essa inconsistência foi documentada durante a análise, uma vez que poderia impactar diretamente interpretações relacionadas à dificuldade das partidas.
 
+### ✅ Objetivos Atendidos
+
+✔ Tratamento e integração das bases de dados
+
+✔ Análise Exploratória (EDA)
+
+✔ Identificação dos fatores relacionados à retenção
+
+✔ Formulação de hipóteses de Produto
+
+✔ Definição de ações e métricas de sucesso
+
+✔ Construção de Dashboard em Power BI
+
+✔ Segmentação comportamental com Machine Learning (K-Means)
+
+✔ Storytelling para tomada de decisão
+
 ---
 
 # 📊 Análise Exploratória dos Dados (EDA)
@@ -211,7 +229,7 @@ O painel foi desenvolvido a partir da base consolidada e permite acompanhar, de 
 
 # 🤖 Bônus – Segmentação de Usuários com Machine Learning (K-Means)
 
-Com o objetivo de complementar a Análise Exploratória de Dados (EDA) e aumentar a robustez das conclusões, foi aplicado o algoritmo de **Machine Learning não supervisionado K-Means.**
+Com o objetivo de análise complementar a Análise Exploratória de Dados (EDA) e aumentar a robustez das conclusões, foi aplicado o algoritmo de **Machine Learning não supervisionado K-Means.**
 
 Diferentemente de modelos supervisionados, o K-Means não busca prever um resultado específico, mas identificar grupos naturais de usuários com comportamentos semelhantes.
 
@@ -300,7 +318,7 @@ O Cluster 0 apresentou exatamente esse padrão de comportamento, oferecendo evid
 
 ---
 
-# 📊 Ferramentas Utilizadas
+# 📊 Stack Tecnológica
 
 * Python
 * Pandas
@@ -311,6 +329,8 @@ O Cluster 0 apresentou exatamente esse padrão de comportamento, oferecendo evid
 * K-Means
 * Power BI
 * Jupyter Notebook
+* Git
+* GitHub
 
 ---
 
@@ -342,8 +362,8 @@ Dessa forma, todas as análises, hipóteses e recomendações foram elaboradas c
 
 # ✅ Conclusão
 
-O projeto demonstra a aplicação prática da análise de dados em um contexto real de **Produto & Growth**, contemplando desde o tratamento e integração das bases até a construção de hipóteses de negócio baseadas em evidências.
+Este projeto demonstra um fluxo completo de análise de dados aplicado a um contexto real de **Produto & Growth**, contemplando desde o tratamento e integração das bases até a geração de insights estratégicos e a formulação de hipóteses de negócio baseadas em evidências.
 
-Além da Análise Exploratória de Dados (EDA), foram desenvolvidos um **dashboard interativo em Power BI** para monitoramento contínuo dos principais indicadores e uma **segmentação de usuários utilizando Machine Learning (K-Means)**, que permitiu validar estatisticamente as hipóteses levantadas durante a análise.
+Além de atender aos requisitos propostos no case, foram desenvolvidas análises complementares, incluindo um **dashboard interativo em Power BI** para monitoramento contínuo dos principais indicadores e uma **segmentação de usuários utilizando Machine Learning (K-Means)**, que permitiu validar estatisticamente os padrões identificados durante a Análise Exploratória de Dados (EDA).
 
-A combinação entre tratamento de dados, visualização, inteligência de negócios e aprendizado de máquina proporcionou uma compreensão mais profunda do comportamento dos usuários, transformando dados em recomendações estratégicas para aumentar a retenção, melhorar a experiência do jogador e apoiar a tomada de decisão orientada por dados.
+A combinação entre tratamento de dados, visualização, inteligência de negócios e aprendizado de máquina proporcionou uma compreensão mais profunda do comportamento dos usuários, transformando dados em recomendações estratégicas capazes de apoiar decisões relacionadas à retenção, ao engajamento e à evolução da experiência do usuário. O projeto evidencia como a integração entre análise exploratória, Business Intelligence e Machine Learning pode gerar informações relevantes para orientar decisões de produto de forma mais precisa e baseada em dados.
